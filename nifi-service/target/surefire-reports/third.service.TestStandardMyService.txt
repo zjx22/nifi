@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: third.service.TestStandardMyService
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.216 sec <<< FAILURE! - in third.service.TestStandardMyService
+testService(third.service.TestStandardMyService)  Time elapsed: 0.216 sec  <<< ERROR!
+java.lang.NoSuchFieldError: MY_PROPERTY
+	at third.service.TestStandardMyService.testService(TestStandardMyService.java:38)
+

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+      <entry name="!?*.aj" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="nifi-demo-nar" />
+        <module name="nifi-demo-processors" />
+        <module name="nifi-service" />
+        <module name="nifi-service-api" />
+        <module name="nifi-service-api-nar" />
+        <module name="nifi-service-nar" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="nifi-demo-nar" target="1.8" />
+      <module name="nifi-demo-processors" target="1.8" />
+      <module name="nifi-service" target="1.8" />
+      <module name="nifi-service-api" target="1.8" />
+      <module name="nifi-service-api-nar" target="1.8" />
+      <module name="nifi-service-nar" target="1.8" />
+      <module name="third-processor" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
